@@ -1,0 +1,22 @@
+section.about {
+  background: linear-gradient(to bottom, var(--color-de-fondo) 8% , var(--color-de-fondo2));
+  background-color: var(--color-de-fondo2);
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid  #cfcfa6;
+}
+  
+.about__container {
+  width: 90vw;
+  padding: 1em 3.9em;
+}
+  
+.about__title {
+  font-size: 1.4rem;
+}
+  
+.about__paragraph {
+  font-size: 1.2rem;
+}

@@ -1,0 +1,63 @@
+.menu__header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3.9em;
+}   
+
+.menu__list{
+    display: flex;
+    text-align: center;
+}
+
+.menu__title a{
+    font-style: italic;
+	font-size: 1.1em;
+	margin-bottom: 20px;
+    color: #000000 ;
+}
+
+.menu__nav .menu__list__item{
+    padding: 0.5em;
+	margin-bottom: 10px;
+	background-color: var(--color-de-fondo);
+    border: 1px solid #beb8b8;
+    border-radius: 5px;
+    margin: 5px;
+    transition: 0.9s;
+}
+
+.menu__list__item a {
+    font-size: 0.9em;
+    color: var(--color-de-letras);  
+}
+
+.menu__list__item .email{
+    font-weight: bold;
+}
+
+.menu__list__item:hover{
+    background-color: #D3D3D3;  
+}
+
+/*Tablet*/
+
+@media (min-width: 768px) {
+
+    /* Menú */
+    .menu__list__item{
+        display: none;
+     
+    }  
+    
+    /*title*/
+    
+    /*Skills*/
+    
+    /*Hobbies*/
+    
+    /*Formación Académica*/
+    
+    /*Experiencia Profesional*/
+    
+    }

@@ -1,0 +1,131 @@
+.experience {
+  padding: 0 3.9em;
+  }
+  
+.experience__section__title {
+  font-size: var(--Tamano-de-titulo);
+  font-weight: bold;
+  text-align: center;
+}
+  
+.experience__Job {
+  width: 100%;
+  height: 100%;
+
+}
+  
+.experience__job__title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.experience__container {
+  display: flex;
+  align-items: center;
+}
+  
+.experience__job__container {
+  margin: 10px;
+  padding: 10px;
+}
+  
+.experience__job__list{
+  width: 100%;
+  box-shadow: 2px 2px 2px #ccc;
+  background-color: #fff;
+  padding-bottom: 2em;
+}
+
+.experience__job__list h3{
+  text-align: center;
+}
+
+
+.Experience__functions {
+  font-size: 1em;
+  font-weight: normal;
+  list-style: square;
+}
+  
+.experience__job__p {
+  font-size: 1em;
+  font-weight: normal;
+}
+  
+.experience__box {
+  display: flex;
+  margin: 2em 0;
+}
+  
+.experience__img {
+  width: 40%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-radius: 5px;
+  transition: 0.5s;
+  box-shadow: 3px 3px 3px #000;
+}
+
+.experience__img:hover{
+  box-shadow: 4px 4px 4px #000;
+}
+  
+.experience__title {
+  font-size: 1.5em;
+}
+  
+.experience__info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+  
+.experience__description {
+  text-align: center;
+  font-size: 1rem;
+}
+  
+.experience__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+  
+.experience__repo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+  
+.experience__repo a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+  }
+  
+.experience__button--repo {
+  background-color: #23527c;
+  color: #fff;
+  width: 100%;
+  margin: 10px 0;
+  padding: 6px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  }
+
+.experience__button--repo:hover{
+  background-color: #2c6ea8;
+}
+  

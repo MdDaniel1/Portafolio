@@ -4,47 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Referencia de la hoja de estilo de Css -->
+    <!--Referencia de la hoja de estilo de Css-->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
-    <!-- Fonte del Proyecto Raleway -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-    <title> Mi Portafolio</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/academic.css">
+    <link rel="stylesheet" href="css/experience.css"> 
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="shortcut icon" href="assets/cv.png"><title>Portafolio De Daniel</title>
+
 </head>
 <body>
     <!-- Sección del Menú  -->
+    
     <div class="all">
     <section class="menu">
         <header class="menu__header">
-            <img src="assets\vector.png">
-            <h3 class="menu__title">Daniel David Martinez Perez</h3>
+            <div class="container">
+                <h3 class="menu__title"> 
+                    <a href="#">Daniel David Martinez Perez</a> </h3>
+                <nav class="menu__nav" >
+                    <ul class="menu__list">
+                        <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+                        <li class="menu__list__item"><a href="#skills">Habilidades</a></li>
+                        <li class="menu__list__item"><a href="#formacion">Educación Y Certificaciones</a></li>
+                        <li class="menu__list__item"><a href="#xp">Experiencia</a></li>
+                        <li class="menu__list__item"><a href="#contact" class="email" >danieldmp1406@gmail.com</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        <nav>
-            <ul class="menu__list">
-                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
-                <li class="menu__list__item"><a href="#skills">Habilidades</a></li>
-                <!--<li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>-->
-                <li class="menu__list__item"><a href="#formacion">Educación Y Certificaciones</a></li>
-                <li class="menu__list__item"><a href="#xp">Experiencia</a></li>
-                <li class="menu__list__item"><a href="mailto:danieldmp1406@gmail.com@gmail.com?subject=Estamos Interesados En Contactarte.">danieldmp1406@gmail.com</a></li>
-            </ul>
-            
-        </nav>
     </section>
 
     <!-- Sección del Header/Title/Hero -->
     <section class="title">
         <div class="title__div">
-            <img class="title__profile" src="assets\profile.png">
+            <img class="title__profile" src="assets/profile.png">
             <div class="title__container">
                 <h2 class="title__bio">Hola, mi nombre es Daniel David  Martinez Perez y construyo paginas web</h2>
-                <h3 class="title__subsection">Soy formada en .... lorem ipsum sit amet consectetur y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
+                <p class="title__subsection">Soy formada en .... lorem ipsum sit amet consectetur y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
                 <ul class="title__network">
                      <!-- Pon los enlaces de tus redes sociales favoritas -->
-                    <li class="title__network__item"><a href="">Github <img src="assets\arrow.png"> </a></li>
-                    <li class="title__network__item"><a href="">Linkedin <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="">Curriculum <img src="assets\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="https://github.com/MdDaniel1" target="_blank">Github <img src="assets\arrow.png"> </a></li>
+                    <li class="title__network__item"><a href="https://www.linkedin.com/in/daniel-david-448567875454768756" target="_blank">Linkedin <img src="assets\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="pdf/Hdv-Daniel_Martinez.pdf" target="_blank" >Descargar Hdv <img src="assets\arrow.png"></a></li>
                 </ul>
             </div>
         </div>
@@ -56,85 +61,91 @@
             <h3 class="about__title">Sobre mi</h3>
             <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.  </p>
             <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
-            <!-- Si quieres, pon tú firma acá! -->
-            <img src="assets\signature.png">
+            
         </div>
     </section>
 
     <!-- Sección de Skills -->
     <section class="skills" id="skills">
+        <div class="skills__container" >
         <h3 class="skills__title">Skills</h3>
-            <div class="skills__line">
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"><img src="assets\htlm.png"></li>
-                        <li class="skills__name"> HTML 5</li>
-                    </ul>
-                </div>
-
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
-                        <li class="skills__name">Javascript</li>
-                    </ul>
-                </div>
-
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\php_icon.png" alt=""></li>
-                        <li class="skills__name">PHP</li>
-                    </ul>
-                </div>
-
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
-                        <li class="skills__name">Node JS</li>
-                    </ul>
-                </div>
-
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\react_icon.png" alt=""> </li>
-                        <li class="skills__name">React</li>
-                    </ul>
-                </div>
-
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets\css_icon.png" alt=""> </li>
-                        <li class="skills__name">CSS</li>
-                    </ul>
-                </div>
+                 <ul class="skills__box">
+                    <li class="skills__box__link"><img class="skills__box__link__img" src="assets/html-5.png" alt=""> <p >HTML 5</p></li>
+                    <li class="skills__box__link"><img class="skills__box__link__img" src="assets/js.png" alt=""><p >JavaScript</p></li>
+                    <li class="skills__box__link"><img class="skills__box__link__img" src="assets/css-3.png" alt=""><p >CSS</p></li>
+                    <li class="skills__box__link"><img class="skills__box__link__img" src="assets/react_icon.png" alt=""><p >React</p></li>
+                    <li class="skills__box__link"><img class="skills__box__link__img" src="assets/figma.png" alt=""><p >Figma</p></li>
+                    <li class="skills__box__link"><img class="skills__box__link__img" src="assets/telefono.png" alt=""><p >Web Responsivo</p></li>
+                    <li class="skills__box__link"><img class="skills__box__link__img" src="assets/trabajo-en-equipo.png" alt=""><p >Trabajo en Equipo</p></li>
+                    <li class="skills__box__link"><img class="skills__box__link__img" src="assets/informacion-personal.png" alt=""><p>Ofimática</p></li>
+                    <li class="skills__box__link"><img class="skills__box__link__img" src="assets/business-intelligence.png" alt=""><p>Business Agility</p></li>
+                    <li class="skills__box__link"><img class="skills__box__link__img" src="assets/esfuerzo.png" alt=""><p>Resiliente</p></li>
+                    
+                 </ul>  
         </div>
     </section>
     
         <!-- Sección de Formación académica -->
-    <section class="academic" id="formacion">
-        <h2 class="academic__title" >Formación académica</h2>
+     <section class="academic" id="formacion">
+        <h2 class="academic__title" >Formación académica y certificaciones</h2>
+        <h3 class="academic__subtitle">"Mis logros educativos y reconocimientos profesionales"</h3>
         <div class="academic__courses">
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
                     <!-- Pon el logotipo de la institución de formación -->
                     <li class="academic__courses__item__img"><img src="assets\ufpr_logo.png"></li>
-                    <li class="academic__courses__item__title"><h4>Análisis de datos</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>2018 - UFPR</p></li>
+                    <li class="academic__courses__item__title"><h4>Tecnologo En Análisis Y Desarollo De Sistemas De Información</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2022 - SENA</p></li>
+                    <a class="btn__certified" href="pdf/Diploma ADSI.pdf" target="_blank"  >Ver Certificado</a>
                 </ul>
             </div>
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
                     <!--Pon el logotipo de la institución de formación -->
                     <li class="academic__courses__item__img"><img src="assets\alura_logo.png"></li>
-                    <li class="academic__courses__item__title"><h4>Formación en UX Design</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>2019 - Alura</p></li>
+                    <li class="academic__courses__item__title"><h4>Diplomado En Fundamentos De Programación</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2022 - MinTIC</p></li>
+                    <a class="btn__certified" href="pdf/Diploma ADSI.pdf" target="_blank"  >Ver Certificado</a>
                 </ul>
             </div>
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
                     <!-- Pon el logotipo de la institución de formación -->
                     <li class="academic__courses__item__img"><img src="assets\ufrj_logo.png"></li>
-                    <li class="academic__courses__item__title"><h4>Posgrado en diseño</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>En curso - UFRJ</p></li>
+                    <li class="academic__courses__item__title"><h4>Security, Compliance, and Identity Fundamentals</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2022 - Microsoft Certified</p></li>
+                    <a class="btn__certified" href="pdf/Diploma ADSI.pdf" target="_blank" >Ver Certificado</a>
+                
+                </ul>
+            </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img src="assets\ufrj_logo.png"></li>
+                    <li class="academic__courses__item__title"><h4>Security, Compliance, and Identity Fundamentals</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2022 - Microsoft Certified</p></li>
+                    <a class="btn__certified" href="pdf/Diploma ADSI.pdf" target="_blank" >Ver Certificado</a>
+                
+                </ul>
+            </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img src="assets\ufrj_logo.png"></li>
+                    <li class="academic__courses__item__title"><h4>Security, Compliance, and Identity Fundamentals</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2022 - Microsoft Certified</p></li>
+                    <a class="btn__certified" href="pdf/Diploma ADSI.pdf" target="_blank" >Ver Certificado</a>
+                
+                </ul>
+            </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img src="assets\ufrj_logo.png"></li>
+                    <li class="academic__courses__item__title"><h4>Security, Compliance, and Identity Fundamentals</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2022 - Microsoft Certified</p></li>
+                    <a class="btn__certified" href="pdf/Diploma ADSI.pdf" target="_blank" >Ver Certificado</a>
+                
                 </ul>
             </div>
         </div>
@@ -142,61 +153,57 @@
 
     <!-- Sección de Experiencia Profesional/Proyectos-->
     <section class="experience" id="xp">
-        <h2 class="experience__section__title" >Experiencia Profissional</h2>
-        <div class="experiencie__box">
-            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+        <h2 class="experience__section__title" >Experiencia Laboral</h2>
+        <div class="experience__Job">
+            <h3 class="experience__job__title">Analista De Sistemas De Información</h2>
+            <ul class="experience__job__box">
+                <div class="experience__container">
+                <div class="experience__job__container">
+                    <h3>Auxiliar de Programador</h3>
+                    <h4>FYR Ingenieros</h4>
+                    <h5>Barranquilla, Colombia</h5>
+                    <h5>Mayo de 2022 - Noviembre de 2022</h6>
+                </div>
+                <ul class="experience__job__list">
+                    <h3>Funciones</h3>
+                    <li class="Experience__functions">
+                        Digitalicé los trabajos realizados por los trabajadores de la empresa hacia la empresa cliente (Aire-e, prestadora de servicios eléctricos) usando el sistema del cliente (Air-e).
+                    </li>
+                    <li class="Experience__functions">
+                        Realización de informes de los trabajos realizados.    
+                    </li>
+                    <li class="Experience__functions">
+                        Subía los registros fotográficos de los trabajos realizados por la empresa en la plataforma.
+                    </li>
+                    <li class="Experience__functions">
+                        Llevaba el orden de las órdenes faltantes por entrega.
+                    </li>
+                    <li class="Experience__functions">
+                        Realización de la programación semanal de los trabajos a realizar.
+                    </li>
+                </div>
+                </ul>
+                <p>Durante mi pasantía de 6 meses en FYR, desarrollé habilidades valiosas en programación y gestión de proyectos. También aprendí a trabajar de manera efectiva en un entorno colaborativo. Estoy orgulloso de haber contribuido al éxito de la empresa y estoy seguro de que estas habilidades me ayudarán a tener éxito en mi futuro profesional.</p>
+                <p>Además de las habilidades técnicas que mencioné, también desarrollé habilidades blandas importantes durante mi pasantía. Aprendí a comunicarme de manera efectiva con clientes, compañeros de trabajo y superiores. También aprendí a trabajar de manera independiente y como parte de un equipo. Estoy seguro de que estas habilidades me ayudarán a tener éxito en mi futuro profesional.</p>
+            </ul>
+        </div> 
+        <div class="experience__box">
             <img class="experience__img" src="assets\decod_print.png">
             <div class="experience__info">
-                <h2 class="experience__title">Encriptador de texto</h2>
-                <h3 class="experience__text">Challenge Alura Codificador </h3>
-                    <div class="experience__description">
+                <h3 class="experience__title">Encriptador de texto</h2>
+                <h4 class="experience__text">Challenge Alura Encriptador de texto </h3>
+                <p class="experience__description" > Este proyecto forma parte del programa educativo Oracle Next         Education (ONE) ofrecido por Alura Latam. 
+                    La aplicación desarrollada tiene la funcionalidad de encriptar y desencriptar texto, permitiendo a los usuarios compartir y 
+                    recibir mensajes de manera segura y confidencial.
+                </p>
+                    <div class="experience__links">
                         <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
+                            <span class="experience__repo"><a class="experience__button--repo" href="https://github.com/MdDaniel1/Repositorio-aprendizaje." target="_blank" >Repositório</a></span>
                     </div>
             </div>
         </div>  
-
-        <div class="experiencie__box">
-            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-            <img class="experience__img" src="assets\forca_print.png">
-            <div class="experience__info">
-                <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
-                <h3 class="experience__text">Challenge Oracle </h3>
-                    <div class="experience__description">
-                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
-                    </div>
-            </div>
-        </div>  
-
-        <div class="experience__box">
-            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-            <img class="experience__img" src="assets\secretcode_print.png">
-            <div class="experience__info-container">
-                <h2 class="experience__title">Encriptador de texto</h2>
-                <h3 class="experience__text">Challenge Oracle </h3>
-                    <div class="experience__description">
-                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
-                    </div>
-            </div>
-        </div>  
-
-        <div class="experience__box">
-            <img class="experience__img" src="assets\forca2_print.png">
-            <div class="experience__info-container">
-            <h2 class="experience__title">Juego creado con HTML, CSS y JavaScript</h2>
-                <h3 class="experience__text">Challenge Oracle </h3>
-                    <div class="experience__description">
-                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
-                    </div>
-        </div>
-        </div>  
+        </section>
+         
 
         <!-- Sección de Contacto -->
         <section class="formContact" id="contact">
@@ -207,10 +214,12 @@
                 <div class="formContact__text">
                     <h2 class="formContact__title">Contacto</h2>
                     <h3 class="formContact__subtext">¿Quieres contactarme?</h3>
-                    <h3 class="formContact__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
+                    <h3 class="formContact__subtext">Me Puedes Enviar un correo <a href="mailto:danieldmp1406@gmail.com">danieldmp1406@gmail.com</a></h3>
+                    <h3 class="formContact__subtext">O Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
                     <form class="formContact__form" name="form">
                         <input class="formContact__input" type="text" name="nombre" placeholder="Nombre">
                         <input class="formContact__input" type="email" name="email" placeholder="E-mail">
+                        <input class="formContact__input" type="tel" name="number" placeholder="Numero">
                         <input class="formContact__input" type="text" name="asunto" placeholder="Asunto">
                         <textarea class="formContact__textarea" rows="5" cols="40" id="msj" name="msj" placeholder="msj"></textarea>
                         <button type="submit" class="formContact__button">Enviar mensaje</button>
@@ -218,16 +227,16 @@
                 </div>
             </div>
         </section>
-
         <!-- Sección de Footer -->
-        <section class="footer">
-            <div class="footer__rodapie">
+        <footer class="rodapie" >
+            <div class="rodapie__container">
                 <p>Desarrollado por Daniel David Perez</p>
-                <p>2022</p>
+                <p>2023</p>
             </div>
-        </section>
-    </div>
+        </footer>
+   </div>
  <!-- Script del documento JavaScript -->
 <script src="validacion.js"></script>
+
 </body>
 </html>

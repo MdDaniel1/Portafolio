@@ -1,0 +1,46 @@
+.title__div{
+     display: flex;
+     justify-content: center;
+     padding: 1em 3.9em;
+}
+ 
+.title__container{
+     width: 80vw;
+}
+ 
+.title__profile{
+     width: 200px;
+     height: 200px;
+     padding: 2em;   
+}
+ 
+.title__bio{
+     font-size: 2.6em;
+}
+ 
+.title__subsection{
+     font-size: 1.3em;
+}
+ 
+.title__network{
+     display: flex;
+     justify-content: space-around;
+     padding-top: 27px;
+}
+
+.title__network a {
+     padding: 3px;
+     border: 1px solid #eba720 ;
+     color: var(--color-de-letras);
+     border-radius: 4px;
+     font-size: 1em;
+     transition: 0.3s;
+     
+}
+ 
+.title__network a:hover{ 
+     background-color: #ffb83d;
+     color: #fff;
+}
+
+               
