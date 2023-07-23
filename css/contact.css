@@ -10,10 +10,6 @@
   padding: 3rem 0;
 }
   
-.formContact--left {
-  flex: 0 0 50%;
-}
-  
 .formContact__img {
   width: 100%;
   max-width: 400px;
@@ -22,8 +18,7 @@
 }
   
 .formContact__text {
-  flex: 0 0 50%;
-  padding-left: 2rem;
+  text-align: center;
 }
   
 .formContact__title {
@@ -73,11 +68,42 @@ footer.rodapie{
   text-align: center;
   background-color: #696969;
   border-top: 1px solid #6d6d6d;
-  color: #fff;
+  color: #000;
 }
   
 .rodapie__container {
   height: 100%;
   overflow: hidden;
 }
+
+.rodapie__icon{
+  display: flex;
+  padding: 0;
+  justify-content:center;
   
+}
+
+.rodapie__links__img{
+  padding: 0 20px;
+}
+
+.rodapie__links__img{
+  width: 40px;
+  height: 40px;
+}
+
+.rodapie__links__img:hover{
+  transition: 0.8s;
+  width: 45px;
+  height: 45px;
+}
+
+@media (max-width:768px){
+  .formContact{
+    padding: 0;
+    width: auto;
+  }
+  .formContact__text{
+    width: 90%;
+  }
+}

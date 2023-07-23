@@ -5,7 +5,7 @@
 }
  
 .title__container{
-     width: 80vw;
+     width: auto;
 }
  
 .title__profile{
@@ -24,7 +24,7 @@
  
 .title__network{
      display: flex;
-     justify-content: space-around;
+     justify-content: space-between;
      padding-top: 27px;
 }
 
@@ -43,4 +43,13 @@
      color: #fff;
 }
 
-               
+@media (max-width:768px){
+     .title__div{
+          flex-direction: column;
+          padding: 1em 1em;
+     }
+     .title__profile{
+          padding: 0;
+          align-self: center;
+     }
+ }

@@ -66,3 +66,14 @@
 .btn__certified:hover {
     background-color: #2c6ea8;
 }
+
+@media (max-width:768px){
+    .academic__courses{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .academic{
+        padding: 1em 0;
+    }
+}

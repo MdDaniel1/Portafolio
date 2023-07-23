@@ -9,7 +9,7 @@ section.about {
 }
   
 .about__container {
-  width: 90vw;
+  width: auto;
   padding: 1em 3.9em;
 }
   
