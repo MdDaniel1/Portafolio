@@ -11,7 +11,8 @@
 .title__profile{
      width: 200px;
      height: 200px;
-     padding: 2em;   
+     padding: 2em;
+     border-radius: 50%;   
 }
  
 .title__bio{

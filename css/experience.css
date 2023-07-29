@@ -152,6 +152,14 @@
   .experience__job__box{
     padding: 0;
   }
+
+  .experience__job__title{
+    text-align: center;
+  }
+
+  .experience__Job p{
+    padding: 0 5px;
+  }
   
   .experience__job__list{
     width: auto;
@@ -161,6 +169,11 @@
   align-items: center;
   width: auto;
  }
+
+ .experience__description {
+  padding: 0 5px;
+ }
+
  .experience__info{
   padding: 0;
  }
